@@ -2,7 +2,7 @@
 # about: create and view status of zendesk ticket within each topic
 # authors: shiv kumar
 
-gem 'faraday_middleware', '0.9.1'
+gem 'faraday_middleware', '0.11.0'
 gem 'inflection', '1.0.0'
 gem 'zendesk_api', '1.14.0'
 
