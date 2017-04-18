@@ -1,7 +1,7 @@
 class ZendeskTicket
   def initialize(params)
     @client = ZendeskAPI::Client.new do |config|
-      config.url = "#{ENV[SiteSetting.zendesk_url]]}/api/v2" # e.g. https://support.mydesk.com
+      config.url = "#{ENV[SiteSetting.zendesk_url]}/api/v2" # e.g. https://support.mydesk.com
       config.username = ENV[SiteSetting.zendesk_username]
       config.token = ENV[SiteSetting.zendesk_token]
 
