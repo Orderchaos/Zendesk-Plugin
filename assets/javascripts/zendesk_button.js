@@ -6,7 +6,7 @@ Discourse.ZendeskButton = Discourse.ButtonView.extend({
   titleBinding: 'controller.zendeskTicket.title',
   textBinding: 'controller.zendeskTicket.text',
 
-  click() {
+  click: function() {
     if (this.get('controller.zendeskTicket.exists')) {
       this.get('controller').send('redirectToZendesk', this.get('controller.zendeskTicket.url'));
     } else {
