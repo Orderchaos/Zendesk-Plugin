@@ -11,6 +11,7 @@ gem 'zendesk_api', '1.14.0'
 register_asset "javascripts/topic_route_cont.js"
 register_asset "javascripts/zendesk_button.js"
 register_asset "stylesheets/buttons_cont.css.scss"
+register_asset "javascripts/discourse/initializers/topic-controller-zendesk.js.es6"
 
 after_initialize do
   load File.expand_path("../controllers/zendesk_controller.rb", __FILE__)
