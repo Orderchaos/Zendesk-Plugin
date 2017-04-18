@@ -14,7 +14,7 @@ Discourse.ZendeskButton = Discourse.ButtonView.extend({
     }
   },
 
-  renderIcon(buffer) {
+  renderIcon: function(buffer) {
     buffer.push("<i class='fa fa-ticket'></i>");
   }
 });
