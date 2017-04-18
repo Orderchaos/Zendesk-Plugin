@@ -3,7 +3,7 @@
 # authors: shiv kumar
 
 gem 'scrub_rb', '1.0.1'
-
+gem 'faraday_middleware', '0.11.0'
 gem 'inflection', '1.0.0'
 gem 'zendesk_api', '1.14.0'
 
